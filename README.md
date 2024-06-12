@@ -8,9 +8,12 @@ This repository contains benchmark examples for the paper accepted by FM 2024, t
 - *StateApprox.m*: Approximates the state-time sets using the SDP solver in MATLAB. The *guard_syn_approxi.ipynb* notebook will call this file using the *matlab.engine* package in Python.
 
 
-## Set Up
-- Python Version:
+## Dependencies
+- Python Version: 3.10.14
 - Essential Python Packages: matlab.engine, z3
 
- 
+
+ ## Set Up
+ 1. Install MATLAB 2022b or any later version. \href{https://www.mathworks.com/support/requirements/python-compatibility.html}
+ 2.  
 
