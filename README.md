@@ -4,7 +4,9 @@ This is the benchmark examples of the paper accepted by FM 2024, named "Switchin
 
 ## File Description
 
-- guard_syn.ipynb : synthesis switching controller for hybridf system with constant dynamics - the bencmark $\mathsf{Reactor}$
-- guard_syn_approxi.ipynb : the main algorithm and corresponding benchmarks 
+- guard_syn.ipynb : synthesize switching controller for HS with constant dynamics by exactly calculate state-time sets, including the bencmarks $\mathsf{Reactor}$, $\mathsf{WaterTank}$, and $\mathsf{CarSeq}$.
+- guard_syn_approxi.ipynb : synthesize switching controller for HS with unsolvable sdynamics by approximate state-time sets, including the benchmarks $\mathsf{Oscillator}$, $\mathsf{Temperature}$
+- StateApprox.m : approximate the state-time sets using SDP solver in matlab. guard_syn_approxi.ipynb will call this file using matlab.engine package in python.
+
 ## Set Up
 
